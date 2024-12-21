@@ -36,42 +36,44 @@ yarn add vue-godrays
 </template>
 
 <script>
-import { GodRays } from 'vue-godrays'
+import { GodRays } from "vue-godrays";
 
 export default {
   components: {
-    GodRays
-  }
-}
+    GodRays,
+  },
+};
 </script>
 ```
 
 ## 🎮 Props
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `animation` | `Object` | `{ animate: true, speed: 1 }` | Controls animation state and speed |
-| `raysColor` | `Object` | `{ mode: 'single', color: '#ffffff' }` | Defines ray coloring mode and colors |
-| `backgroundColor` | `string` | `'#000000'` | Background color of the component |
-| `intensity` | `number` | `0.7` | Intensity of the rays (0.0 - 1.0) |
-| `rays` | `number` | `15` | Number of light rays |
-| `reach` | `number` | `1` | How far the rays extend |
-| `position` | `number` | `0.5` | Center position of rays (0.0 - 1.0) |
-| `radius` | `string` | `'50%'` | Radius of the light source |
-| `style` | `Object` | `{}` | Additional CSS styles |
+| Prop              | Type     | Default                                | Description                          |
+| ----------------- | -------- | -------------------------------------- | ------------------------------------ |
+| `animation`       | `Object` | `{ animate: true, speed: 1 }`          | Controls animation state and speed   |
+| `raysColor`       | `Object` | `{ mode: 'single', color: '#ffffff' }` | Defines ray coloring mode and colors |
+| `backgroundColor` | `string` | `'#000000'`                            | Background color of the component    |
+| `intensity`       | `number` | `0.7`                                  | Intensity of the rays (0.0 - 1.0)    |
+| `rays`            | `number` | `15`                                   | Number of light rays                 |
+| `reach`           | `number` | `1`                                    | How far the rays extend              |
+| `position`        | `number` | `50`                                   | Center position of rays (0 - 100)    |
+| `radius`          | `string` | `'50%'`                                | Radius of the light source           |
+| `style`           | `Object` | `{}`                                   | Additional CSS styles                |
 
 ### 🎨 Color Modes
 
 The component supports three color modes through the `raysColor` prop:
 
 1. **Single Color Mode**
+
 ```javascript
 :raysColor="{ mode: 'single', color: '#ffffff' }"
 ```
 
 2. **Multi Color Mode**
+
 ```javascript
-:raysColor="{ 
+:raysColor="{
   mode: 'multi',
   color1: '#ff0000',
   color2: '#00ff00'
@@ -79,6 +81,7 @@ The component supports three color modes through the `raysColor` prop:
 ```
 
 3. **Random Color Mode**
+
 ```javascript
 :raysColor="{ mode: 'random' }"
 ```
@@ -86,6 +89,7 @@ The component supports three color modes through the `raysColor` prop:
 ## 🎯 Examples
 
 ### Basic Usage
+
 ```vue
 <GodRays
   :animation="{ animate: true, speed: 1 }"
@@ -96,6 +100,7 @@ The component supports three color modes through the `raysColor` prop:
 ```
 
 ### Dramatic Effect
+
 ```vue
 <GodRays
   :animation="{ animate: true, speed: 0.5 }"
@@ -108,6 +113,7 @@ The component supports three color modes through the `raysColor` prop:
 ```
 
 ### Subtle Background Effect
+
 ```vue
 <GodRays
   :animation="{ animate: true, speed: 0.3 }"
