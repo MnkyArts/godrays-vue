@@ -4,6 +4,8 @@
 
 A stunning and customizable God Rays (Light Rays) effect component for Vue applications. Create atmospheric lighting effects with ease, perfect for adding dramatic flair to your web projects.
 
+> This component is a Vue implementation inspired by and based on the original [Framer University](https://framer.university/) [Light Rays](https://framer.university/resources/light-rays-component-for-framer) component. Special thanks to Framer University for their excellent original work.
+
 ## ✨ Features
 
 - 🎨 Multiple color modes (single, multi, random)
@@ -149,11 +151,12 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📝 License
 
-[MIT License](link-to-license) - feel free to use this component in your projects!
+MIT License - feel free to use this component in your projects!
 
 ## 🙏 Credits
 
-Developed with ❤️ by [Your Name/Organization]
+- Original concept and design by [Framer University](https://framer.university/)
+- Vue implementation developed with ❤️ by Liam Robinson
 
 ---
 
