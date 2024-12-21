@@ -15,9 +15,9 @@
 <script setup lang="ts">
 import { defineProps } from "vue";
 import { useThreeSetup } from "./useThreeSetup";
-import type { RayEffectProps } from "./types";
+import type { GodRaysProps } from "./types";
 
-const props = defineProps<RayEffectProps>();
+const props = defineProps<GodRaysProps>();
 const { containerRef, canvasRef } = useThreeSetup(props);
 </script>
 
