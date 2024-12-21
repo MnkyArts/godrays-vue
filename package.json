@@ -1,0 +1,39 @@
+{
+  "name": "vue-godrays",
+  "version": "1.0.0",
+  "description": "A stunning God Rays effect component for Vue applications",
+  "main": "dist/vue-godrays.umd.js",
+  "module": "dist/vue-godrays.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "godrays",
+    "effects",
+    "animation"
+  ],
+  "author": "Liam Robinson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MnkyArts/godrays-vue.git"
+  },
+  "peerDependencies": {
+    "vue": "latest",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vue": "latest",
+    "three": "^0.170.0"
+  }
+}
