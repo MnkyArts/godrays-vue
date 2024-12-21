@@ -1,6 +1,6 @@
 {
   "name": "vue-godrays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A stunning God Rays effect component for Vue applications",
   "main": "dist/vue-godrays.umd.js",
   "module": "dist/vue-godrays.es.js",
